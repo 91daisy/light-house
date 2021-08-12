@@ -1,0 +1,153 @@
+body {
+	#wrap {
+		> section#main {
+			overflow: hidden;
+			position: relative;
+			width: 1280px;
+			height: 800px;
+			margin: 0 auto;
+			> h2 {
+				position: absolute;
+				left: 10px;
+				top: 130px;
+				font-size: 50px;
+			}
+			> h3 {
+				position: absolute;
+				left: 10px;
+				top: 310px;
+				color: #525355;
+				font-size: 30px;
+			}
+			> a.btn {
+				position: absolute;
+				top: 400px;
+				display: block;
+				width: 70px;
+				height: 70px;
+				text-indent: -9999px;
+				background-size: contain;
+			}
+			> a.main-img-prev {
+				left: 30px;
+				background-image: url(../images/icon_left_b.png);
+			}
+			> a.main-img-next {
+				left: 230px;
+				background-image: url(../images/icon_right_b.png);
+			}
+			> span {
+				position: absolute;
+				left: 130px;
+				top: 420px;
+				font-size: 25px;
+			}
+			> .img_slides {
+				position: absolute;
+				left: 0;
+				top: 0;
+				display: flex;
+				width: 3840px;
+				z-index: -3;
+				> li {
+					width: 1280px;
+					> img {
+						display: block;
+						width: 100%;
+					}
+				}
+			}
+			> .notice {
+				position: absolute;
+				left: 0;
+				top: 570px;
+				display: flex;
+				width: 100%;
+				height: 230px;
+				color: #fff;
+				font-size: 20px;
+				background-color: rgba(51, 51, 51, 0.8);
+				> .notice1 {
+					position: absolute;
+					left: 15px;
+					top: 30px;
+					width: 600px;
+
+					> .title {
+						font-size: 35px;
+					}
+					> .text_1 {
+						position: absolute;
+						left: 0;
+						top: 70px;
+					}
+					> .text_2 {
+						position: absolute;
+						left: 200px;
+						top: 70px;
+						> .letter-spacing {
+							letter-spacing: -1.2px;
+						}
+					}
+				}
+				> .notice1:after {
+					display: block;
+					position: absolute;
+					right: 25px;
+					top: 0;
+					width: 0;
+					height: 170px;
+					border-right: 3px solid #e0e0e0;
+					content: '';
+				}
+				> .notice2 {
+					position: absolute;
+					top: 30px;
+					left: 50%;
+					width: 600px;
+					> .title {
+						font-size: 35px;
+						> span {
+							position: absolute;
+							top: 40px;
+							font-size: 20px;
+						}
+					}
+					> .text_1 {
+						position: absolute;
+						left: 0;
+						top: 70px;
+					}
+					> .content {
+						position: absolute;
+						left: 210px;
+						top: 40px;
+						> .frame {
+							display: block;
+							width: 350px;
+							height: 50px;
+							margin-top: 5px;
+							text-indent: -9999px;
+							background-repeat: no-repeat;
+							background-size: cover;
+							background-image: url(../images/passport.png);
+						}
+						> .passport {
+							position: absolute;
+							left: -5px;
+							top: 90px;
+							display: flex;
+							justify-content: space-between;
+							width: 360px;
+							font-size: 15px;
+							text-align: center;
+							> li {
+								line-height: 1;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
