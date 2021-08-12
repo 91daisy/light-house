@@ -1,0 +1,102 @@
+body {
+	#wrap {
+		> section#content {
+			position: relative;
+			width: 1200px;
+			margin: 0 auto;
+			> .current_location {
+				margin: 30px 0 0 10px;
+				> span {
+					font-size: 15px;
+					> img {
+						display: inline-block;
+						width: 15px;
+						height: 15px;
+					}
+				}
+				> span.now {
+					color: #002057;
+				}
+			}
+			> .title {
+				display: block;
+				margin: 15px 0 0 10px;
+				color: #002057;
+				font-size: 20px;
+			}
+			> .container {
+				> .mnu {
+					display: flex;
+					justify-content: space-between;
+					width: 500px;
+					margin: 20px 0;
+					> li {
+						width: 150px;
+						a {
+							display: block;
+							height: 30px;
+							line-height: 30px;
+							text-align: center;
+							color: #333;
+							font-size: 20px;
+						}
+					}
+					> li.on,
+					li:hover {
+						> a {
+							color: #002057;
+							border: 3px solid #002057;
+							border-radius: 10px;
+							padding-bottom: 5px;
+							box-sizing: border-box;
+						}
+					}
+				}
+				> .search {
+					position: absolute;
+					right: 10px;
+					top: 80px;
+					display: flex;
+					> .search-form {
+						> .search-input {
+							display: block;
+							width: 200px;
+							height: 20px;
+							color: #fff;
+							font-size: 10px;
+						}
+					}
+					> a {
+						position: absolute;
+						top: 3px;
+						right: 5px;
+						display: block;
+						width: 20px;
+						height: 20px;
+						text-indent: -9999px;
+						background-size: contain;
+						background-image: url(../images/icon_search_g.png);
+					}
+				}
+			}
+			> .container:after {
+				position: absolute;
+				top: 115px;
+				display: block;
+				width: 1200px;
+				height: 0;
+				border-bottom: 3px solid #333;
+				content: '';
+			}
+			> .main_cont {
+				width: 100%;
+				height: 350px;
+				> img {
+					display: block;
+					width: 565px;
+					margin: 50px auto;
+				}
+			}
+		}
+	}
+}
