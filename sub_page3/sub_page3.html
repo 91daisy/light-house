@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>국립등대박물관 홈페이지</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/jquery.easing.min.js"></script>
+  <script src="./js/function.js"></script>
+
+<body>
+  <div id="wrap">
+    <header>
+      <h1 class="logo"><a href="./../index.html">국립등대박물관</a></h1>
+      <ul class="snb">
+        <li class="snb_title">
+          <a href="#">search</a>
+          <div class="search">
+            <form action="#" class="search-form">
+              <input type="text" class="search-input" value="　검색어를 입력해주세요">
+            </form>
+            <a href="#">확인</a>
+          </div>
+        </li>
+
+        <li class="snb_title">
+          <a href="#">language</a>
+        </li>
+      </ul>
+
+      <nav>
+        <ul class="gnb">
+          <li>
+            <a href="#">박물관이용안내</a>
+            <ol class="lnb">
+              <li> <a href="#">관람안내</a></li>
+              <li> <a href="#">교육프로그램 안내</a></li>
+              <li> <a href="#">등대체험숙소 신청</a></li>
+              <li> <a href="#">시설안내</a></li>
+              <li> <a href="#">찾아오시는 길</a></li>
+            </ol>
+          </li>
+
+          <li>
+            <a href="#">전시관안내</a>
+            <ol class="lnb">
+              <li> <a href="#">유물관</a></li>
+              <li> <a href="#">체험관</a></li>
+              <li> <a href="#">분수정원</a></li>
+              <li> <a href="#">야외전시장</a></li>
+              <li> <a href="#">테마공원</a></li>
+            </ol>
+          </li>
+
+          <li>
+            <a href="#">행사안내</a>
+            <ol class="lnb">
+              <li> <a href="#">기획전시</a></li>
+              <li> <a href="#">사회교육프로그램</a></li>
+              <li> <a href="#">등대스탬프투어</a></li>
+              <li> <a href="#">주요행사</a></li>
+            </ol>
+          </li>
+
+          <li>
+            <a href="#">소장유물</a>
+            <ol class="lnb">
+              <li> <a href="#">주요유물</a></li>
+              <li> <a href="#">유물검색</a></li>
+              <li> <a href="#">유물기증</a></li>
+            </ol>
+          </li>
+
+          <li class="on">
+            <a href="#">참여하기</a>
+            <ol class="lnb">
+              <li> <a href="./../sub_page1/sub_page1.html">질문과 답변</a></li>
+              <li> <a href="./../sub_page2/sub_page2.html">박물관이야기</a></li>
+              <li class="on"> <a href="./../sub_page3/sub_page3.html">이지원의 등대기행</a></li>
+            </ol>
+          </li>
+
+          <li>
+            <a href="#">박물관소개</a>
+            <ol class="lnb">
+              <li> <a href="#">인사말</a></li>
+              <li> <a href="#">연혁</a></li>
+              <li> <a href="#">비전과목표</a></li>
+              <li> <a href="#">조직 및 업무</a></li>
+              <li> <a href="#">박물관로고</a></li>
+              <li> <a href="#">온라인브로슈어</a></li>
+              <li> <a href="#">공지사항</a></li>
+              <li> <a href="#" class="letter-spacing">박물관 확대건립 소개</a></li>
+            </ol>
+          </li>
+
+          <li>
+            <a href="#">정보공개</a>
+            <ol class="lnb">
+              <li> <a href="#">정보공개제도안내</a></li>
+              <li> <a href="#">사전정보공개</a></li>
+            </ol>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+    <section id="main">
+      <h2 class="text">이지원의 등대기행</h2>
+      <h3 class="sub-text">참여하기</h3>
+    </section>
+    <hr />
+    <section id="content">
+      <p class="current_location">
+        <span><img src="./images/icon_home.png" alt="홈" /></span>&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;
+        <span>참여하기</span>&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;
+        <span class="now">이지원의 등대기행</span>
+      </p>
+
+      <h2 class="title">참여하기</h2>
+      <div class="container">
+        <ul class="mnu">
+          <li><a href="./../sub_page1/sub_page1.html">질문과답변</a></li>
+          <li><a href="./../sub_page2/sub_page2.html">박물관이야기</a></li>
+          <li class="on"><a href="#">이지원의 등대기행</a></li>
+        </ul>
+        <div class="search">
+          <select name="search_select" id="search_select">
+            <option value="title">제목</option>
+            <option value="content">내용</option>
+          </select>
+          <form action="#" class="search-form">
+            <input type="text" class="search-input" value=" ｜">
+          </form>
+          <a href="#">확인</a>
+        </div>
+      </div>
+      <div class="main_cont">
+        <table>
+          <caption>이지원의 등대기행</caption>
+          <colgroup>
+            <col style="width:80px" />
+            <col style="width:550px" />
+            <col style="width:130px" />
+            <col style="width:150px" />
+          </colgroup>
+          <thead>
+            <tr>
+              <th>번호</th>
+              <th>제목</th>
+              <th>조회수</th>
+              <th>등록일</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>5</td>
+              <td>설악을 앞에 두고 거문고 소리를 듣다-속초등대</td>
+              <td>397</td>
+              <td>2019-03-22</td>
+            </tr>
+
+            <tr>
+              <td>4</td>
+              <td>안개, 걷히다-인천 소청도등대⑵</td>
+              <td>241</td>
+              <td>2019-03-22</td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>안개 바다를 건너다-인천 소청도등대⑴</td>
+              <td>197</td>
+              <td>2019-03-22</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>소망과 낭만 품은 미래의 바다-울산 간절곶등대</td>
+              <td>197</td>
+              <td>2019-03-22</td>
+            </tr>
+
+            <tr>
+              <td>1</td>
+              <td>등대 앞에 두고 온 간절한 마음-인천 팔미도등대</td>
+              <td>271</td>
+              <td>2019-03-22</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="pageing">
+        <a href="#">1</a>
+      </div>
+    </section>
+    <hr />
+
+    <footer>
+      <a href="#" class="logo_gray">국립등대박물관</a>
+      <nav>
+        <ol class="footer_lnb">
+          <li> <a href="#">개인정보처리방침</a> </li>
+          <li> <a href="#">영상정보처리기기 운영&middot;관리방침</a> </li>
+        </ol>
+      </nav>
+      <address>
+        국립등대박물관(37928) 경북 포항시 남구 호미곶면 해맞이로150번길 20 <br />
+        대표전화 : 054-284-4857 / 팩스 : 054-284-4859 / 이메일 : info@lighthouse-museum.or.kr <br />
+        <span>copyright &copy; 2021 A-Yeong Lim. all rights reserved. 본 페이지는 개인 포트폴리오용으로 제작되었습니다.</span>
+      </address>
+    </footer>
+    <hr />
+  </div>
+</body>
+
+</html>
