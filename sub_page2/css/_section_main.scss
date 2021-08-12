@@ -1,0 +1,30 @@
+body {
+	#wrap {
+		> section#main {
+			position: relative;
+			display: block;
+			width: 1280px;
+			height: 435px;
+			margin: 0 auto;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-image: url(./../images/main.png);
+			h2 {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				margin-left: -160px;
+				color: #525355;
+				font-size: 70px;
+			}
+			h3 {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				margin: -40px 0 0 -60px;
+				color: #002057;
+				font-size: 40px;
+			}
+		}
+	}
+}
